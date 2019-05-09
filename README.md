@@ -10,7 +10,9 @@ O sistema realiza o cálculo de quantas voltas cada espaçonave irá realizar pa
 npm install
 
 # serve with hot reload at localhost:8080
-npm start or npm run dev
+npm start
+# or use
+npm run dev
 
 # build for production with minification
 npm run build
