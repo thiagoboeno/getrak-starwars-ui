@@ -1,6 +1,7 @@
-# starwars-ui
+# StarWars - UI
 
-> A Vue.js project
+> Projeto realizado como teste a fim de conquistar a vaga de desenvolvedor na Getrak, consumindo a API.
+O sistema realiza o cálculo de quantas voltas cada espaçonave irá realizar para percorrer uma distancia na razão distance X in MGLT/starship MGLT
 
 ## Build Setup
 
@@ -9,7 +10,7 @@
 npm install
 
 # serve with hot reload at localhost:8080
-npm run dev
+npm start or npm run dev
 
 # build for production with minification
 npm run build
