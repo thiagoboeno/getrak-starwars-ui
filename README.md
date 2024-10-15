@@ -1,24 +1,30 @@
 # StarWars - UI
 
-> Projeto realizado como teste a fim de conquistar a vaga de desenvolvedor na Getrak, consumindo a API.
-O sistema realiza o cálculo de quantas voltas cada espaçonave irá realizar para percorrer uma distancia na razão distance X in MGLT/starship MGLT
+#### Teste técnico realizado em Maio de 2019, com intuito de ingressar em uma vaga na empresa [Getrak](https://getrak.com.br/)
+#### A aplicação desenvolvida tem como realizar o cálculo de quantas voltas cada espaçonave irá realizar para percorrer uma distancia na razão distance X in MGLT/starship MGLT com base nos dados fornecida pela api [Swapi](https://swapi.dev/).
 
-## Build Setup
+#### Informações Adicionais:
+- VueJs 2.5.2
+
+## Instalação
+
+Tenha o [Node.js](https://nodejs.org/en/) e o [Npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/) instalados.
+
+Com os demais instalados, as dependencias do `package.json` precisam ser instaladas a partir do commando:
 
 ``` bash
-# install dependencies
-npm install
+# instalando as dependências
+$ yarn
 
-# serve with hot reload at localhost:8080
-npm start
-# or use
-npm run dev
+# Executando/compilando o projeto (localhost:8080)
+$ yarn serve
 
-# build for production with minification
-npm run build
+# Buildando o projeto e minificando para produção
+$ yarn build
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+# Linters
+$ yarn lint
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# Testes unitários
+$ yarn test:unit
+````
